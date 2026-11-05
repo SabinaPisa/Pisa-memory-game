@@ -1,0 +1,13 @@
+*{margin:0;padding:0;box-sizing:border-box;font-family:sans-serif}
+body{min-height:100vh;background:linear-gradient(135deg,#667eea,#764ba2);display:flex;justify-content:center;padding:20px;color:white}
+.app{max-width:400px;width:100%}
+h1{text-align:center;margin:20px 0;font-size:32px}
+.info{display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;background:rgba(255,255,255,0.2);padding:12px 20px;border-radius:15px;backdrop-filter:blur(10px)}
+.info button{padding:8px 16px;border-radius:10px;border:none;background:white;cursor:pointer;font-weight:bold}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.card{aspect-ratio:1;background:rgba(255,255,255,0.9);border-radius:15px;display:flex;align-items:center;justify-content:center;font-size:36px;cursor:pointer;transition:0.3s;color:#333;box-shadow:0 4px 15px rgba(0,0,0,0.2)}
+.card.flipped{background:white}
+.card.matched{background:#4ade80;pointer-events:none}
+.card.hidden-card{background:rgba(255,255,255,0.3);color:transparent}
+.win{text-align:center;font-size:28px;margin-top:20px;background:rgba(255,255,255,0.3);padding:20px;border-radius:20px}
+.hidden{display:none}
